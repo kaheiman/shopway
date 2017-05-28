@@ -315,8 +315,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hang_sang_shop" translatesAutoresizingMaskIntoConstraints="NO" id="DHE-hA-g7w">
-                                <rect key="frame" x="0.0" y="20" width="375" height="603"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hang sang page1" translatesAutoresizingMaskIntoConstraints="NO" id="HVW-dI-H81">
+                                <rect key="frame" x="0.0" y="178" width="375" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="hang_sang_shop" translatesAutoresizingMaskIntoConstraints="NO" id="DHE-hA-g7w">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -495,6 +499,7 @@
     </scenes>
     <resources>
         <image name="create_account" width="286" height="41"/>
+        <image name="hang sang page1" width="375" height="105"/>
         <image name="hang_sang_fb" width="289" height="44"/>
         <image name="hang_sang_icon" width="456" height="471"/>
         <image name="hang_sang_rule" width="281" height="26"/>
